@@ -1,0 +1,52 @@
+
+
+.App{
+  color: #3b3749;
+  background-color: rgb(159, 203, 233);
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  text-align: center;
+  min-width: 400px;
+  max-width: 500px;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.buttons button{
+  margin-left: 0.5rem;
+  background-color: ecf9ff;
+  width: 5rem;
+  height: 2rem;
+  border: 0;
+  font-weight: bold;
+  font-size: 1rem;
+
+  border-radius: 2rem;
+}
+.buttons button:hover{
+  background-color: rgb(30, 76, 177);
+  color: white;
+}
+.statistics{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0.5rem;
+  background-color: rgb(206 234 255);
+  margin: 1rem 0rem;
+  
+  border-radius: 1rem;
+  
+}
+
+.statistics td{
+  
+  text-align: left;
+}

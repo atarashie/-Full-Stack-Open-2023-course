@@ -1,0 +1,16 @@
+.App{
+  text-align: center;
+  font-weight: bold;
+}
+
+.App button{
+  box-shadow: 1px 1px black;
+  padding: 0.5rem 0.75rem;
+  background-color: white;
+  margin: 5px;
+}
+
+.App button:hover{
+  box-shadow: 3px 5px black;
+  
+}
